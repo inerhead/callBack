@@ -36,9 +36,9 @@ function getCharacter(error, character) {
     } else {
         //console.log(character);
         const firstCharacter = character.results[0].id;
-
+        console.log(`Character Length: ${character.results.length}`);
         const url2 = character.results[0].origin.url;
-        console.log(`Character id: ${url2}`);
+        console.log(`Character id: ${firstCharacter}`);
         fetchData(url2, place);
     }
 }
