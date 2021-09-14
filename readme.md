@@ -1,0 +1,1 @@
+This Callback invoke an API Ricky and Morty and then as a parameter send a function.
