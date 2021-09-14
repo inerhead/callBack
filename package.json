@@ -1,0 +1,15 @@
+{
+    "name": "CallBacks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "callBack": "node call-back.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "xmlhttprequest": "^1.8.0"
+    }
+}
